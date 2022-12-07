@@ -1,0 +1,103 @@
+
+.header{
+    display:grid;
+    grid-template-columns:20% 80%;
+    margin-bottom: 50px;
+}
+.topbackground{
+    background-color:rgb(4, 4, 75);
+    height: 100px;
+}
+body{
+    min-height:100vh;
+    margin:0;
+    display:grid;
+    grid-template-rows: 20% 63% 10% 7% ; 
+     
+}
+.login{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin : 0 auto;
+    max-width: 900px;
+    width: 90%;
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+}
+.login a{
+    background-color: rgb(12, 12, 111);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;  
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.login a:hover{
+    background-color:rgb(15, 205, 15);
+}
+
+.student,.faculty{
+    border: 3px solid rgb(130, 7, 17);
+
+}
+footer{
+    background-color: rgb(12, 12, 111);
+    text-align: center;
+    color:#f2f2f2;
+
+    width:100%;
+    min-height:15px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+
+
+ 
